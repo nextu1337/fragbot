@@ -1,4 +1,4 @@
-module fragbot
+module github.com/nextu1337/fragbot
 
 go 1.19
 
