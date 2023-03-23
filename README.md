@@ -10,7 +10,7 @@ A very simple and straightforward Hypixel SkyBlock FragBot library made in Go
 package main
 
 import (
-	fragbot "github.com/nextu1337/go-fragbot"
+	fragbot "github.com/nextu1337/fragbot"
 )
 
 func main() {
