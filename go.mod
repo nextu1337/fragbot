@@ -1,4 +1,4 @@
-module go-fragbot
+module fragbot
 
 go 1.19
 
