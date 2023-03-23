@@ -34,7 +34,7 @@ func main() {
 	frag.Handlers["invite"] = func() {
 		fmt.Sprintln("FragBot was invited by %v",frag.Queue[len(frag.Queue) - 1]);
 	}
-  frag.SetMessage("limbo","Bot was sent to the limbo")
+  	frag.SetMessage("limbo","Bot was sent to the limbo")
   
 	frag.Start() // Infinite loop starts here
 }
