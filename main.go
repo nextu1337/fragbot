@@ -264,7 +264,7 @@ func (fb *FragBot) chatHandler(aaa chat.Message) error {
 	return nil;
 }
 
-func (fb *FragBot) setMessage(msgType string, message string) {
+func (fb *FragBot) SetMessage(msgType string, message string) {
 	fb.messages[msgType] = message
 }
 
