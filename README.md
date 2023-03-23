@@ -2,7 +2,7 @@
 A very simple and straightforward Hypixel SkyBlock FragBot library made in Go
 
 ## Installation
-`go get github.com/nextu1337/go-fragbot`
+`go get github.com/nextu1337/fragbot`
 
 ## Example use
 
