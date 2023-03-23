@@ -15,11 +15,11 @@ import (
 
 func main() {
 	config := map[string]interface{}{"message":"join gg/url for more FragBots!", // Message sent in party chat after someone joins [OPTIONAL]
-  "username":"FRAGBOT_username", // Fragbot's username
-  "email":"example@outlook.com", // Fragbot's e-mail
-  "password":"example_password", // Fragbot's password
-  "webhook":"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXX...",  // Webhook URL [OPTIONAL]
-  "blacklist": []string{}} // Blacklist, can be empty
+  	"username":"FRAGBOT_username", // Fragbot's username
+  	"email":"example@outlook.com", // Fragbot's e-mail
+  	"password":"example_password", // Fragbot's password
+  	"webhook":"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXX...",  // Webhook URL [OPTIONAL]
+ 	 "blacklist": []string{}} // Blacklist, can be empty
   
 	frag := fragbot.New(config)
 
