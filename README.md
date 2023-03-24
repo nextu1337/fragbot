@@ -19,12 +19,12 @@ https://youtu.be/EWBtOhZOZxQ
 - `blacklist` []string, can be empty, list of blacklisted usernames
 - `message`  string, optional, message sent in pc after fragbot joins the party
 
-## Handlers
+## Events (Handlers)
 - `join` happens when bot joins hypixel successfully
 - `end`  happens when bot gets disconnected 
 - `invite` happens when bot gets added to the party
 - `limbo`  happens when bot gets sent to Limbo because AFK
-
+- `dungeons` happens when player joins the dungeon
 ## Installation
 `go get github.com/nextu1337/fragbot`
 
