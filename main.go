@@ -199,7 +199,7 @@ func (fb *FragBot) chatHandler(aaa chat.Message) error {
 	if strings.Contains(msg, cur + " entered The ") {
 		fb.Log(fb.wh,strings.ReplaceAll(fb.tm(fb.messages["dungeons"]), "%i", fb.Current))
 		fb.chat.SendMessage("/p leave")
-		if fn, ok := fb.Handlers["limbo"]; ok {
+		if fn, ok := fb.Handlers["dungeons"]; ok {
 			fn();
 		}
 		fb.joinNextParty()
