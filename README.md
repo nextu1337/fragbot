@@ -1,6 +1,8 @@
 # fragbot
 A very simple and straightforward Hypixel SkyBlock FragBot library made in Go<br>
-As of now it only works with Microsoft accounts
+As of now it only works with Microsoft accounts<br>
+This exact library is aimed at bigger communities and people who want to keep the bots up for longer time.<br>
+If you are a regular user, you should check out [this repository](https://github.com/nextu1337/hypixel-fragbot)
 
 ## What is a fragbot? 
 The video linked below explains everything you need to know perfectly<br>
