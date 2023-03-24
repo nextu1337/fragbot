@@ -2,7 +2,11 @@
 A very simple and straightforward Hypixel SkyBlock FragBot library made in Go<br>
 As of now it only works with Microsoft accounts
 
-##TODO
+## What is a fragbot? 
+The video linked below explains everything you need to know perfectly<br>
+https://youtu.be/EWBtOhZOZxQ
+
+## TODO
 - Better error handling and more failsafes
 - Mojang account support (`auth`-type field in config) 
 
