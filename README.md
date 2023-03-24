@@ -1,6 +1,24 @@
-# go-fragbot
+# fragbot
 A very simple and straightforward Hypixel SkyBlock FragBot library made in Go<br>
 As of now it only works with Microsoft accounts
+
+##TODO
+- Better error handling and more failsafes
+- Mojang account support (`auth`-type field in config) 
+
+## Config
+- `username` string, username of the fragbot
+- `email`    string, fragbot's email address
+- `password` string, password of the fragbot
+- `webhook`  string, optional, webhook url
+- `blacklist` []string, can be empty, list of blacklisted usernames
+- `message`  string, optional, message sent in pc after fragbot joins the party
+
+## Handlers
+- `join` happens when bot joins hypixel successfully
+- `end`  happens when bot gets disconnected 
+- `invite` happens when bot gets added to the party
+- `limbo`  happens when bot gets sent to Limbo because AFK
 
 ## Installation
 `go get github.com/nextu1337/fragbot`
