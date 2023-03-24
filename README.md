@@ -9,6 +9,7 @@ https://youtu.be/EWBtOhZOZxQ
 ## TODO
 - Better error handling and more failsafes
 - Mojang account support (`auth`-type field in config) 
+- Add comments
 
 ## Config
 - `username` string, username of the fragbot
@@ -33,7 +34,7 @@ https://youtu.be/EWBtOhZOZxQ
 package main
 
 import (
-	fragbot "github.com/nextu1337/fragbot"
+	"github.com/nextu1337/fragbot"
 )
 
 func main() {
