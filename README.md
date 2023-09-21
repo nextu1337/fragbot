@@ -10,7 +10,6 @@ https://youtu.be/EWBtOhZOZxQ
 
 ## TODO
 - Better error handling and more failsafes
-- Mojang account support (`auth`-type field in config) 
 - Add comments
 
 ## Config
